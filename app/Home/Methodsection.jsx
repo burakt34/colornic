@@ -34,7 +34,7 @@ const MethodSection = () => {
 
   ]
   return (
-    <div className='px-4 md:px-20 bg-csbg'>
+    <div className='px-4 md:px-20 bg-csbg md:min-h-screen flex flex-col justify-center'>
       <div className={roboto.className}>
         {
           MethodSection.map((ms, idm) => (

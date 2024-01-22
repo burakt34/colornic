@@ -87,12 +87,12 @@ const SeviceSection = () => {
 
     ]
     return (
-        <div className='px-4 md:px-20 w-full bg-ssbg py-16 flex flex-col justify-between gap-10'>
+        <div className='px-4 md:px-20 w-full md:min-h-screen bg-ssbg py-20 md:py-56 flex flex-col justify-between gap-10'>
 
             <div data-aos="fade-up" className={roboto.className}>
                 {
                     ServiceSection.map((sc, ids) => (
-                        <h2 className='text-6xl md:text-8xl text-white font-bold' key={ids}>{sc.MainTitle}</h2>
+                        <h2 className='text-6xl md:text-8xl lg:text-8xl text-white font-bold' key={ids}>{sc.MainTitle}</h2>
                     ))
                 }
             </div>

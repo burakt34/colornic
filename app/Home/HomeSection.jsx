@@ -3,6 +3,7 @@ import { Inter, Roboto } from 'next/font/google'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from 'react';
+import '.././globals.css'
 
 
 const inter = Inter({
@@ -63,22 +64,22 @@ const HomeSection = () => {
     return (
         <div className='px-4 md:px-20 w-full h-[41vh] md:h-[81vh]'>
             <div className={inter.className}>
-                <div className='flex flex-col !justify-center h-[41vh] md:h-[81vh]'>
+                <div className='flex flex-col !justify-center h-[41vh] md:h-[81vh] mt-28 md:mt-40 gap-1 md:gap-2'>
 
                     {
                         HomeSec.map((homesect, idh) => (
-                            <div className='w-4/5'>
-                                <p data-aos="fade-up" className='text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-semibold' key={idh}>{homesect.titleTop}</p>
+                            <div className='w-full md:w-4/5'>
+                                <p data-aos="fade-up" className='text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-semibold' key={idh}>{homesect.titleTop}</p>
                             </div>
                         ))
                     }
-                    <p data-aos="fade-up" className='${inter.variable} text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-semibold'>
+                    <p data-aos="fade-up" className='text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-semibold'>
                         {titles[currentTitleIndex]}
                     </p>
                     {
                         HomeSec.map((homesect, idh) => (
                             <div className=''>
-                                <p data-aos="fade-down" className='inter.variable text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-semibold' key={idh}>{homesect.titleBottom}</p>
+                                <p data-aos="fade-down" className='text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-semibold' key={idh}>{homesect.titleBottom}</p>
                             </div>
                         ))
                     }

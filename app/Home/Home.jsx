@@ -7,10 +7,12 @@ import SeviceSection from './SeviceSection'
 import Footer from '../Components/Footer/Footer'
 import ClientSection from './ClientSection'
 import MethodSection from './Methodsection'
+import ProcessBar from '../Components/ProcessBar/ProcessBar'
 
 const Home = () => {
     return (
         <div className='min-h-screen'>
+            <ProcessBar/>
             <Header />
             <HomeSection />
             <WorkSection/>

@@ -2,7 +2,7 @@
 import { Roboto } from 'next/font/google'
 import Link from 'next/link'
 import React, { useEffect } from 'react'
-import { LuArrowUpFromLine } from "react-icons/lu";
+import { LuArrowUpFromLine, LuWrapText } from "react-icons/lu";
 import { FaWhatsapp } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -55,7 +55,7 @@ const Footer = () => {
     },
   ]
   return (
-    <div className='  w-full h-[100vh] flex flex-col justify-between py-10 '>
+    <div className='  w-full h-[70vh] md:h-[100vh] flex flex-col justify-between py-10 '>
 
       <div className={roboto.className}>
         <div data-aos="fade-up">
@@ -77,7 +77,7 @@ const Footer = () => {
           <div className={roboto.className}>
             {
               Footer.map((tel, idt) => (
-                <div className='mb-4 md:mb-0 text-xl md:text-xl tracking-wider' key={idt}>{tel.FooterTel}</div>
+                <div className='mb-4 md:mb-0 text-xl md:text-xl tracking-widest font-medium' key={idt}>{tel.FooterTel}</div>
               ))
             }
           </div>
@@ -112,7 +112,7 @@ const Footer = () => {
         {
           Footer.map((fl, idl) => (
             <div className={roboto.className}>
-              <Link className='text-2xl font-normal !link !link-underline !link-underline-black' key={idl} href="/">{fl.FooterLinks}</Link>
+              <Link className='text-2xl font-normal !link !link-underline !link-underline-black' key={idl} href="/">{fl.FooterLinks }</Link>
             </div>
           ))
         }
