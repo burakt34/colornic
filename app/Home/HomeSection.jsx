@@ -6,6 +6,8 @@ import { useEffect, useState } from 'react';
 import '.././globals.css'
 
 
+
+
 const inter = Inter({
     subsets: ['latin'],
     display: 'swap',
@@ -18,6 +20,8 @@ const roboto = Roboto({
 })
 
 const HomeSection = () => {
+
+    const texts = ['Merhaba!', 'React ile animasyonlar', 'react-text-loop kullanımı'];
 
     const titles = ['Brand', 'Social Media', 'WebSite', 'Video']; // Değişen başlıklar
 
@@ -63,7 +67,7 @@ const HomeSection = () => {
     ]
     return (
         <div className='px-4 md:px-20 w-full h-[41vh] md:h-[81vh]'>
-            <div className={inter.className}>
+            <div className="font-helvetica">
                 <div className='flex flex-col !justify-center h-[41vh] md:h-[81vh] mt-28 md:mt-40 gap-1 md:gap-2'>
 
                     {

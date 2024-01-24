@@ -14,14 +14,13 @@ const Logo = () => {
     },
 ]
   return (
-    <Link href="/" className={roboto.className}>
-        
-          {
+    <Link href="/" className="font-helvetica">
+          {/* {
             Logo.map((lg,idl)=>(
               <p className='text-4xl !font-bold font-mono tracking-tighter cursor-pointer' key={idl}>{lg.Logo}</p>
             ))
-          }
-        
+          } */}
+        <img className='w-36 h-9' src="../colornic2.svg" alt="" />
     </Link>
   )
 }

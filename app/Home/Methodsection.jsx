@@ -35,7 +35,7 @@ const MethodSection = () => {
   ]
   return (
     <div className='px-4 md:px-20 bg-csbg md:min-h-screen flex flex-col justify-center'>
-      <div className={roboto.className}>
+      <div className="font-helvetica">
         {
           MethodSection.map((ms, idm) => (
             <div className='flex flex-col justify-between py-16 md:py-20'>

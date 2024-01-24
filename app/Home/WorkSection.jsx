@@ -33,7 +33,7 @@ const WorkSection = () => {
 
     return (
         <div className='px-4 md:px-20 py-20 md:py-16 '>
-            <div className={roboto.className}>
+            <div className="font-helvetica">
                 <div data-aos="fade-up" className='mb-6'>
                     {
                         workTitle.map((wt, idw) => (

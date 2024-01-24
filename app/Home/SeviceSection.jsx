@@ -87,9 +87,9 @@ const SeviceSection = () => {
 
     ]
     return (
-        <div className='px-4 md:px-20 w-full md:min-h-screen bg-ssbg py-20 md:py-56 flex flex-col justify-between gap-10'>
+        <div className='font-helvetica px-4 md:px-20 w-full md:min-h-screen bg-ssbg py-20 md:py-56 flex flex-col justify-between gap-10'>
 
-            <div data-aos="fade-up" className={roboto.className}>
+            <div data-aos="fade-up" className="font-helvetica">
                 {
                     ServiceSection.map((sc, ids) => (
                         <h2 className='text-6xl md:text-8xl lg:text-8xl text-white font-bold' key={ids}>{sc.MainTitle}</h2>
@@ -100,7 +100,7 @@ const SeviceSection = () => {
             <div className='flex flex-wrap gap-2 md:gap-5' data-aos="fade-up" >
                 {
                     ServiceSection.map((sc, ids) => (
-                        <h2 className='text-3xl md:text-5xl text-white font-semibold cursor-pointer link link-underline link-underline-black' key={ids}>{sc.ServiceSectionList} </h2>
+                        <h2 className='text-3xl md:text-5xl tracking-wide text-white font-semibold cursor-pointer link link-underline link-underline-black' key={ids}>{sc.ServiceSectionList} </h2>
                     ))
                 }
             </div>

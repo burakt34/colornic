@@ -17,10 +17,11 @@ module.exports = {
         'msbg': '#3d3d3d',
         'csbg': '#2a2a2a'
       },
-      // fontFamily: {
-      //   sans: ['var(--font-inter)'],
-      //   mono: ['var(--font-roboto-mono)'],
-      // },
+      fontFamily: {
+        
+        'helvetica': ['Helvetica Neue', 'sans-serif'],
+      },
+      
     },
   },
   plugins: [],

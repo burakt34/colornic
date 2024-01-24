@@ -40,7 +40,7 @@ const ClientSection = () => {
     return (
 
         <div className='bg-msbg px-4 md:px-20 w-full py-24 flex flex-col justify-between'>
-            <div className={roboto.className}>
+            <div className="font-helvetica">
                 <div className='md:mb-10'>
                     {
                         ClientSection.map((mc, idm) => (

@@ -33,7 +33,7 @@ const MoreLink = () => {
     ]
     return (
         <div className='px-4 md:px-20 mt-6 flex justify-center items-center w-full p-16'>
-            <div className={roboto.className}>
+            <div className="font-helvetica">
                 {
                     MoreLink.map((ml, idm) => (
                         <h2 data-aos="fade-up" className='text-2xl font-semibold tracking-widest leading-normal uppercase cursor-pointer' key={idm}>{ml.moreLink}</h2>
