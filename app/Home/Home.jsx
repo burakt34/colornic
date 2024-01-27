@@ -8,6 +8,7 @@ import Footer from '../Components/Footer/Footer'
 import ClientSection from './ClientSection'
 import MethodSection from './Methodsection'
 import ProcessBar from '../Components/ProcessBar/ProcessBar'
+import CardsParallax from './CardsParallax'
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Header />
             <HomeSection />
             <WorkSection/>
+            <CardsParallax/>
             <MoreLink/>
             <SeviceSection/>
             <MethodSection/>

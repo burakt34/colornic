@@ -7,7 +7,6 @@ import '.././globals.css'
 
 
 
-
 const inter = Inter({
     subsets: ['latin'],
     display: 'swap',
@@ -20,8 +19,6 @@ const roboto = Roboto({
 })
 
 const HomeSection = () => {
-
-    const texts = ['Merhaba!', 'React ile animasyonlar', 'react-text-loop kullanımı'];
 
     const titles = ['Brand', 'Social Media', 'WebSite', 'Video']; // Değişen başlıklar
 
@@ -69,7 +66,6 @@ const HomeSection = () => {
         <div className='px-4 md:px-20 w-full h-[41vh] md:h-[81vh]'>
             <div className="font-helvetica">
                 <div className='flex flex-col !justify-center h-[41vh] md:h-[81vh] mt-28 md:mt-40 gap-1 md:gap-2'>
-
                     {
                         HomeSec.map((homesect, idh) => (
                             <div className='w-full md:w-4/5'>
@@ -91,7 +87,6 @@ const HomeSection = () => {
 
                 </div>
             </div>
-
         </div>
 
     )
