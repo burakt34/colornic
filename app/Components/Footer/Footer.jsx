@@ -112,7 +112,7 @@ const Footer = () => {
         {
           Footer.map((fl, idl) => (
             <div className={roboto.className}>
-              <Link className='text-2xl font-normal !link !link-underline !link-underline-black' key={idl} href="/">{fl.FooterLinks }</Link>
+              <Link className='text-2xl font-normal linkblt linkblt-underline linkblt-underline-black' key={idl} href="/">{fl.FooterLinks }</Link>
             </div>
           ))
         }

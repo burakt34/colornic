@@ -14,16 +14,17 @@ const roboto = Roboto({
 const MethodSection = () => {
   useEffect(() => {
     AOS.init({
-        easing: 'ease-out-quad',
-        duration: 1000,
+      easing: 'ease-out-quad',
+      duration: 1000,
     });
     AOS.refresh(
-        {
-            easing: 'ease-out-quad',
-            duration: 1000,
-        }
+      {
+        easing: 'ease-out-quad',
+        duration: 1000,
+      }
     );
-}, [])
+  }, [])
+  
   const MethodSection = [
     {
       titleMethodTop: "Our Design Methodology"

@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 
+
+/*underline white*/
 .link-underline {
     border-bottom-width: 0;
     background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
@@ -13,10 +15,54 @@
 }
 
 .link-underline-black {
-    background-image: linear-gradient(transparent, transparent), linear-gradient(#Fff, #Fff)
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff)
 }
 
 .link-underline:hover {
     background-size: 100% 5px;
+    background-position: 0 100%
+}
+
+
+/*underline black */
+
+.linkbl-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#000, #000);
+    background-size: 0 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .3s ease-in-out;
+}
+
+.linkbl-underline-black {
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#000, #000)
+}
+
+.linkbl-underline:hover {
+    background-size: 100% 5px;
+    background-position: 0 100%
+}
+
+
+
+/*underline black ft links*/
+
+
+.linkblt-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#000, #000);
+    background-size: 0 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .3s ease-in-out;
+}
+
+.linkblt-underline-black {
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#000, #000)
+}
+
+.linkblt-underline:hover {
+    background-size: 100% 2px;
     background-position: 0 100%
 }
