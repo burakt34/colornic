@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="291px" height="252px" viewBox="0 0 291 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Polygon</title>
+    <defs>
+        <radialGradient cx="8.97628222%" cy="73.175869%" fx="8.97628222%" fy="73.175869%" r="117.193524%" id="radialGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Dektop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services_Desktop-Copy-6" transform="translate(-190.000000, -2851.000000)" stroke="url(#radialGradient-1)" stroke-width="30">
+            <g id="Group-7" transform="translate(80.000000, 1155.000000)">
+                <path d="M255.073684,1694.32051 L365.647367,1758.16025 L365.647367,1885.83975 L255.073684,1949.67949 L144.5,1885.83975 L144.5,1758.16025 L255.073684,1694.32051 Z" id="Polygon" transform="translate(255.073684, 1822.000000) rotate(-30.000000) translate(-255.073684, -1822.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

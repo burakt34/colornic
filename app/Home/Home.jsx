@@ -8,21 +8,24 @@ import Footer from '../Components/Footer/Footer'
 import ClientSection from './ClientSection'
 import MethodSection from './Methodsection'
 import ProcessBar from '../Components/ProcessBar/ProcessBar'
-import CardsParallax from './CardsParallax'
+// import CardsParallax from './CardsParallax'
+import CardsParallax2 from './CardsParallax2/CardsParallax2'
+
 
 const Home = () => {
     return (
         <div className='min-h-screen'>
-            <ProcessBar/>
+            <ProcessBar />
             <Header />
             <HomeSection />
-            <WorkSection/>
-            <CardsParallax/>
-            <MoreLink/>
-            <SeviceSection/>
-            <MethodSection/>
-            <ClientSection/>
-            <Footer/>
+            <WorkSection />
+            {/* <CardsParallax /> */}
+            <CardsParallax2 />
+            <MoreLink />
+            <SeviceSection />
+            <MethodSection />
+            <ClientSection />
+            <Footer />
         </div>
     )
 }
