@@ -10,6 +10,7 @@ import MethodSection from './Methodsection'
 import ProcessBar from '../Components/ProcessBar/ProcessBar'
 // import CardsParallax from './CardsParallax'
 import CardsParallax2 from './CardsParallax2/CardsParallax2'
+import Blog from './Blog'
 
 
 const Home = () => {
@@ -18,13 +19,14 @@ const Home = () => {
             <ProcessBar />
             <Header />
             <HomeSection />
-            <WorkSection />
+            {/* <WorkSection /> */}
             {/* <CardsParallax /> */}
             <CardsParallax2 />
             <MoreLink />
             <SeviceSection />
             <MethodSection />
             <ClientSection />
+            <Blog/>
             <Footer />
         </div>
     )

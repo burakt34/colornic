@@ -1,16 +1,16 @@
 import React from 'react'
+import BySector from './BySector'
 import ProcessBar from '../Components/ProcessBar/ProcessBar'
 import Header from '../Components/Header/Header'
-import WorkPage from './WorkPage'
 
-const work = () => {
+const page = () => {
   return (
     <div>
-        <ProcessBar/>
-        <Header/>
-        <WorkPage/>
+        <ProcessBar />
+        <Header />
+        <BySector />
     </div>
   )
 }
 
-export default work
+export default page

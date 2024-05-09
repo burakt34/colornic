@@ -49,13 +49,13 @@ const ClientSection = () => {
                     }
                 </div>
                 <div className='flex flex-wrap w-full gap-5 md:gap-14 2xl:gap-20 md:mb-10 mb-6 mt-7 md:mt-0'>
+                    <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Union.svg" alt="" />
+                    <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Union1.svg" alt="" />
+                    <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Union (1).svg" alt="" />
+                    <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Union (2).svg" alt="" />
+                    {/* <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Tonguc_magaza_logo_white_f52d2c94cf.svg" alt="" />
                     <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Tonguc_magaza_logo_white_f52d2c94cf.svg" alt="" />
-                    <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Tonguc_magaza_logo_white_f52d2c94cf.svg" alt="" />
-                    <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Tonguc_magaza_logo_white_f52d2c94cf.svg" alt="" />
-                    <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Tonguc_magaza_logo_white_f52d2c94cf.svg" alt="" />
-                    <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Tonguc_magaza_logo_white_f52d2c94cf.svg" alt="" />
-                    <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Tonguc_magaza_logo_white_f52d2c94cf.svg" alt="" />
-                    <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Tonguc_magaza_logo_white_f52d2c94cf.svg" alt="" />
+                    <img data-aos="fade-up" className='w-44 md:w-60 2xl:w-80 p-2 !opacity-45 !hover:opacity-100 cursor-pointer' src="../Tonguc_magaza_logo_white_f52d2c94cf.svg" alt="" /> */}
                 </div>
                 <div className=''>
                     {

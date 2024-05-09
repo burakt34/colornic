@@ -2,3 +2,12 @@
     position: relative;
     margin-top: 50vh;
   }
+
+  @media screen and (max-width: 500px) {
+    .main {
+      margin-top: 30vh;
+    }
+    .main img{
+      height: 100%;
+    }
+  }

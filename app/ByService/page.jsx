@@ -1,16 +1,16 @@
 import React from 'react'
 import ProcessBar from '../Components/ProcessBar/ProcessBar'
 import Header from '../Components/Header/Header'
-import WorkPage from './WorkPage'
+import ByService from './ByService'
 
-const work = () => {
+const page = () => {
   return (
     <div>
-        <ProcessBar/>
-        <Header/>
-        <WorkPage/>
+        <ProcessBar />
+        <Header />
+        <ByService />
     </div>
   )
 }
 
-export default work
+export default page
