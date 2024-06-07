@@ -62,6 +62,7 @@ const BySector = () => {
 
            
             <div className='py-[120px] bg-[#F2F2F2] w-full px-4 md:px-20 mt-20'>
+                
                 <h2 className='text-7xl md:text-[120px] font-bold'>Get in touch.</h2>
                 <h4 className='text-5xl md:text-[54px] font-medium'>Contact us for potential projects</h4>
 
